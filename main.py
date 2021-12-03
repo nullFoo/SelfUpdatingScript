@@ -1,3 +1,5 @@
+print("Hello World")
+
 while(True):
     update = input("Update? (Y/N)")
     if(update == "Y"):
