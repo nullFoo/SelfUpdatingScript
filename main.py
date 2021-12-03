@@ -9,6 +9,8 @@ with open("main.py", "r") as f:
         if(update == "Y"):
             exec(open('updater.py').read())
             exit()
+    else:
+        print("You are fully up to date!")
 
 while(True):
     h = input("type X to exit")
